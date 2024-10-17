@@ -74,12 +74,12 @@
             <p><strong>Kontribusi:</strong> Menerapkan desain HTML dan CSS untuk halaman web.</p>
         </div>
 
-        <div class="team-member">
-            <h2>Nia</h2>
-            <p><strong>Nama Pengguna:</strong> nia</p>
-            <p><strong>Direktori Home:</strong> /home/nia</p>
-            <p><strong>Kontribusi:</strong> Menambahkan otentikasi pengguna dan mengamankan akses SSH.</p>
-        </div>
+       <div class="team-member">
+           <h2>Nia</h2>
+           <p><strong>Nama Pengguna:</strong> nia</p>
+           <p><strong>Direktori Home:</strong> /home/nia</p>
+           <p><strong>Kontribusi:</strong> Mengimplementasikan otentikasi pengguna, mengamankan akses SSH, dan mengelola kunci publik di server.</p>
+    </div>
     </div>
 
 </body>
