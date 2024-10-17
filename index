@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontribusi Tim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .team-member h2 {
+            color: #4CAF50;
+        }
+        .team-member p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Kontribusi Tim</h1>
+    <div class="container">
+        <div class="team-member">
+            <h2>Melati</h2>
+            <p><strong>Nama Pengguna:</strong> melati</p>
+            <p><strong>Direktori Home:</strong> /home/melati</p>
+            <p><strong>Kontribusi:</strong> Menyiapkan Nginx dan membuat struktur utama HTML.</p>
+        </div>
+
+        <div class="team-member">
+            <h2>Glenn</h2>
+            <p><strong>Nama Pengguna:</strong> glenn</p>
+            <p><strong>Direktori Home:</strong> /home/glenn</p>
+            <p><strong>Kontribusi:</strong> Mengonfigurasi server dan menangani repository Git.</p>
+        </div>
+
+        <div class="team-member">
+            <h2>Nov</h2>
+            <p><strong>Nama Pengguna:</strong> nov</p>
+            <p><strong>Direktori Home:</strong> /home/nov</p>
+            <p><strong>Kontribusi:</strong> Menerapkan desain HTML dan CSS untuk halaman web.</p>
+        </div>
+
+        <div class="team-member">
+            <h2>Nia</h2>
+            <p><strong>Nama Pengguna:</strong> nia</p>
+            <p><strong>Direktori Home:</strong> /home/nia</p>
+            <p><strong>Kontribusi:</strong> Menambahkan otentikasi pengguna dan mengamankan akses SSH.</p>
+        </div>
+    </div>
+
+</body>
+</html>
