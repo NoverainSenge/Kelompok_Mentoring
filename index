@@ -48,11 +48,12 @@
         </div>
 
         <div class="team-member">
-            <h2>Glenn</h2>
-            <p><strong>Nama Pengguna:</strong> glenn</p>
-            <p><strong>Direktori Home:</strong> /home/glenn</p>
-            <p><strong>Kontribusi:</strong> Mengonfigurasi server dan menangani repository Git.</p>
+           <h2>Glenn</h2>
+           <p><strong>Nama Pengguna:</strong> glenn</p>
+           <p><strong>Direktori Home:</strong> /home/glenn</p>
+           <p><strong>Kontribusi:</strong> Menyiapkan konfigurasi load balancer dan menangani pull request di GitHub.</p>
         </div>
+
 
         <div class="team-member">
             <h2>Nov</h2>
