@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontribusi Tim</title>
-    <style>
+        <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e3f2fd;
             margin: 0;
             padding: 20px;
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #0d47a1;
+            margin-bottom: 30px;
         }
         .container {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
         }
-        .team-member {
+        .anggota-tim {
             background-color: white;
-            border-radius: 8px;
+            border-radius: 12px;
             padding: 20px;
-            margin: 10px;
-            width: 45%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 40%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
         }
-        .team-member h2 {
-            color: #4CAF50;
+        .anggota-tim:hover {
+            transform: scale(1.05);
         }
-        .team-member p {
-            color: #555;
+        .anggota-tim h2 {
+            color: #1976d2;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .anggota-tim p {
+            color: #616161;
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+        .anggota-tim strong {
+            color: #6190d7;
         }
     </style>
 </head>
